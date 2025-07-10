@@ -138,6 +138,7 @@
 }
 
 .status p {
+    font-size: 20px;
     text-align: center;
 }
 
@@ -300,4 +301,49 @@ form button {
 }
 
 
+/** footer part **/
+.footer {
+    width: 1440px;
+    height: 428px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-content {
+    width: 550px;
+    height: auto;
+}
+
+.foot-content h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    text-align: center;
+}
+
+.foot-content p {
+    font-size: 18px;
+    color: #8987A1;
+    font-weight: 600;
+    text-align: center;
+}
+
+.foot-content ul {
+    display: flex;
+    gap: 48px;
+    margin: 20px 65px 0;
+}
+
+.foot-content ul li {
+    list-style: none;
+}
+
+.foot-content ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #8987A1;
+    font-weight: 600;
+}
 
