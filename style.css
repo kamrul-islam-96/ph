@@ -67,3 +67,42 @@
     text-align: center;
     padding-bottom: 37px;
 }
+
+
+/** main part **/
+.main {
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #D6DDED;
+    padding: 74px 0 0;
+}
+
+/** first section **/
+.first-section {
+    width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fs-lhs {
+    padding: 63px 0;
+}
+
+.fs-lhs h3 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.fs-lhs p {
+    font-size: 24px;
+    padding: 23px 0;
+}
+
+.fs-rhs img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
