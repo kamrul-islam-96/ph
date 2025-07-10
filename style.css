@@ -78,6 +78,7 @@
     padding: 74px 0 0;
 }
 
+
 /** first section **/
 .first-section {
     width: 1140px;
@@ -106,6 +107,7 @@
     height: 328px;
     border-radius: 48px;
 }
+
 
 /** second section **/
 .second-section {
@@ -137,4 +139,66 @@
 
 .status p {
     text-align: center;
+}
+
+
+/** third section **/
+.third-section {
+    width: 1140px;
+    height: 342px;
+    margin: 137px auto 0;
+}
+
+.third-section h3 {
+    font-size: 42px;
+    font-weight: 700px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-ratings {
+    width: 366px;
+    height: 243px;
+    background-color: #F2EDED;
+    padding: 24px;
+    border-radius: 14px;
+}
+
+.desc {
+    padding: 24px 0;
+}
+
+.desc h5 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.desc p {
+    font-size: 20px;
+}
+
+.person-detail {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.person-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+}
+
+.name-date h6 {
+    font-size: 20px;
+}
+
+.name-date p {
+    font-size: 18px;
 }
