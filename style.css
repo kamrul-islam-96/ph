@@ -74,7 +74,7 @@
     width: 1440px;
     height: auto;
     margin: 0 auto;
-    background-color: #D9D9D9;
+    background-color: #F6F8FF;
     padding: 74px 0 0;
 }
 
@@ -231,6 +231,72 @@
     height: 364px;
     border-radius: 48px;
     margin-top: 88px;
+}
+
+
+/** fifth section **/
+.fifth-section {
+    width: 1258px;
+    height: 636px;
+    margin: 114px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-heading {
+    width: 528px;
+    height: 232px;
+}
+
+.contact-heading h1 {
+    font-size: 97px;
+    font-weight: 700;
+}
+
+.contact-form {
+    width: 497px;
+    height: 490px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="text"] {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    padding: 20px 32px;
+    font-size: 20px;
+    border: 1px solid #D6DEEF;
+    outline: none;
+    margin-bottom: 19px;
+}
+
+textarea {
+    width: 100%;
+    height: 135px;
+    border-radius: 10px;
+    padding: 20px 32px 0;
+    font-size: 20px;
+    border: 1px solid #D6DEEF;
+    outline: none;
+}
+
+form button {
+    padding: 19px 200px;
+    margin-top: 19px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 
