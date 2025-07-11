@@ -225,13 +225,19 @@
 .fourth-section p {
     font-size: 20px;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.fourth-section button {
+    display: block;
+    margin: 0 auto;
 }
 
 .webflow-image img {
     width: 100%;
     height: 364px;
     border-radius: 48px;
-    margin-top: 88px;
+    margin-top: 20px;
 }
 
 
