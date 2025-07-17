@@ -1,0 +1,123 @@
+@media screen and (max-width: 576px){
+    /** header-part **/
+    .header {
+        max-width: 576px;
+        height: 698px;
+    }
+
+    .navbar {
+        padding: 0 50px;
+    }
+
+    .hero-section {
+        padding: 130px 50px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 52px;
+    }
+
+    /** main part **/
+    .main {
+        max-width: 576px;
+        height: auto;
+        padding: 60px 0 0;
+    }
+
+        
+    /** first section **/
+    .first-section {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 0 16px 0;
+    }
+
+    .fs-lhs {
+        padding: 0 0 42px;
+    }
+
+    .fs-lhs button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .fs-lhs h3 {
+        text-align: center;
+    }
+
+    .fs-lhs p {
+        text-align: center;
+        padding: 22px 0;
+    }
+
+    .fs-rhs img {
+        width: 100%;
+    }
+
+    /** second section **/
+    .second-section {
+        max-width: 576px;
+        height: auto;
+        margin: 60px auto 0;
+        padding: 50px 32px;
+        border-radius: 24px;
+    }
+
+    .activity {
+        padding-top: 0px;
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .status {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .status p {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    /** third section **/
+    .third-section {
+        max-width: 576px;
+        height: auto;
+        margin: 60px auto 0;
+    }
+
+    .feedback {
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    /** fourth section **/
+    .fourth-section {
+        max-width: 576px;
+        height: auto;
+        margin: 80px 0 0;
+        padding: 30px 25px;
+    }
+
+    /** fifth section **/
+    .fifth-section {
+        max-width: 576px;
+        height: auto;
+        margin: 0;
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+
+    /** footer part **/
+    .footer {
+        max-width: 576px;
+        height: 400px;
+    }
+
+}
