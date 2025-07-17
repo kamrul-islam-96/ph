@@ -54,6 +54,10 @@
     font-weight: 700;
 }
 
+.button:hover {
+    background-color: #2621aaf3;
+}
+
 .hero-section {
     padding: 158px 267px 0;
     display: flex;
@@ -304,6 +308,10 @@ form button {
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
+}
+
+form button:hover {
+    background-color: #2621aaf3;
 }
 
 
